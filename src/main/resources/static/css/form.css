@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: gray;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header span {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.clearfix:after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.text {
+    margin-bottom: 20px;
+}
+
+.text p {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.text input {
+    padding: 5px;
+    border-radius: 15px;
+    height: 40px;
+    border: 1px solid green;
+    outline: none;
+    width: calc(100% - 20px);
+    padding-left: 10px;
+}
+
+.text .gender select {
+    height: 30px !important;
+    left: 0;
+    width: 100px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.save button {
+    padding: 10px 30px;
+    border-radius: 20px;
+    float: right;
+    margin-right: 70px;
+    background: limegreen;
+    border: none;
+    outline: none;
+    transition: all 0.3s;
+    color: white;
+    cursor: pointer;
+}
+
+.save button:hover {
+    background: #65b2fa;
+}
+
+.footer {
+    text-align: center;
+}

@@ -1,0 +1,92 @@
+.wrapper {
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.clearfix:after {
+    clear: both;
+    display: table;
+    content: '';
+}
+
+.col {
+    float: left;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.create_student a {
+    display: inline-block;
+    text-decoration: none;
+    background: limegreen;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 10px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+}
+
+.create_student a i {
+    margin-right: 10px;
+}
+
+.find_student {
+    text-align: right;
+}
+
+.find_student input {
+    padding: 10px;
+    border: 1px solid lightgreen;
+    border-radius: 20px;
+    outline: none;
+}
+
+.find_student button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background: #58ACFA;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.5s;
+    color: white;
+
+}
+
+
+
+/*Table*/
+table {
+    width: 100%;
+    border-spacing: 0;
+    margin-top: 50px;
+}
+
+table thead {
+    border: 1px solid black;
+}
+
+td {
+    padding: 5px;
+    /* border: 1px solid gray; */
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    text-align: center;
+}
+
+thead td {
+    border-top: 1px solid gray;
+}
+
+table tr .first {
+    border-left: 1px solid gray;
+}
+
+thead td {
+    background: limegreen;
+    color: white;
+}
